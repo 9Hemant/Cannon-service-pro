@@ -1,0 +1,5 @@
+{
+  "name": "Canon Service Pro",
+  "description": "AI-powered diagnostic assistant for Canon printer service engineers. Diagnoses error codes, troubleshoot symptoms, and provides service mode guides.",
+  "requestFramePermissions": ["camera"]
+}
