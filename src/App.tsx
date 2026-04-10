@@ -33,6 +33,7 @@ import { Separator } from '@/components/ui/separator';
 import { CANON_ERROR_CODES, ErrorCode } from './data/canonErrorCodes';
 import { getTroubleshootingAdvice, diagnoseImage } from './services/gemini';
 import ReactMarkdown from 'react-markdown';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // --- Sub-components ---
 
@@ -648,6 +649,7 @@ export default function App() {
       
       {/* Padding for bottom nav */}
       <div className="h-20 md:hidden" />
+      <SpeedInsights />
     </div>
   );
 }
