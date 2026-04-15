@@ -5,7 +5,7 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "AIzaSyDAaXa-C1XlM1AoMJZUt056Ul1siVekaDs" });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "AIzaSyAoh-vqBwRLz0LMgQdbFEkgXyyyHT45Yt8" });
 
 export const TROUBLESHOOTING_SYSTEM_PROMPT = `
 You are a Senior Canon Printer Service Engineer with 20+ years of experience. 
